@@ -7,19 +7,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingRequest", "Training
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{D4314558-5606-446A-9DF8-BD1A39E8CC38}"
 	ProjectSection(SolutionItems) = preProject
-		..\Build\Migrator.exe = ..\Build\Migrator.exe
+		Build\Migrator.exe = Build\Migrator.exe
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{DD1F4613-BFD5-470C-81D2-0B4FA2E75398}"
 	ProjectSection(SolutionItems) = preProject
-		..\Migrations\001 - Bootstrap Migrator.sql = ..\Migrations\001 - Bootstrap Migrator.sql
-		..\Migrations\local.migrate with force.bat = ..\Migrations\local.migrate with force.bat
-		..\Migrations\local.migrate.bat = ..\Migrations\local.migrate.bat
-		..\Migrations\production.migrate with force.bat = ..\Migrations\production.migrate with force.bat
-		..\Migrations\production.migrate.bat = ..\Migrations\production.migrate.bat
+		Migrations\001 - Bootstrap Migrator.sql = Migrations\001 - Bootstrap Migrator.sql
+		Migrations\local.migrate with force.bat = Migrations\local.migrate with force.bat
+		Migrations\local.migrate.bat = Migrations\local.migrate.bat
+		Migrations\production.migrate with force.bat = Migrations\production.migrate with force.bat
+		Migrations\production.migrate.bat = Migrations\production.migrate.bat
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B8D6D234-468A-434C-90EF-B5CA5DD05D11}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\reset identity.txt = Scripts\reset identity.txt
+		Scripts\sql pivot.txt = Scripts\sql pivot.txt
+		Scripts\t-sql-get-selected-value-of-stored-procedure.txt = Scripts\t-sql-get-selected-value-of-stored-procedure.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{5D220EBD-4CCA-4184-90E0-9D0189CAE672}"
 EndProject
