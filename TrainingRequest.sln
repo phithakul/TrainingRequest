@@ -28,6 +28,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B8D6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{5D220EBD-4CCA-4184-90E0-9D0189CAE672}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "local", "local", "{35DAB00E-2DB8-43F9-B5A9-7391DBAA8042}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\local\local.drop_all_table.bat = Scripts\local\local.drop_all_table.bat
+		Scripts\local\local.drop_all_table.sql = Scripts\local\local.drop_all_table.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "production", "production", "{094C6B75-0400-43D5-A318-CF2F82D25EBB}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\production\create_database.bat = Scripts\production\create_database.bat
+		Scripts\production\create_database.sql = Scripts\production\create_database.sql
+		Scripts\production\drop_all_table.bat = Scripts\production\drop_all_table.bat
+		Scripts\production\drop_all_table.sql = Scripts\production\drop_all_table.sql
+		Scripts\production\drop_database.bat = Scripts\production\drop_database.bat
+		Scripts\production\drop_database.sql = Scripts\production\drop_database.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,5 +57,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35DAB00E-2DB8-43F9-B5A9-7391DBAA8042} = {B8D6D234-468A-434C-90EF-B5CA5DD05D11}
+		{094C6B75-0400-43D5-A318-CF2F82D25EBB} = {B8D6D234-468A-434C-90EF-B5CA5DD05D11}
 	EndGlobalSection
 EndGlobal
